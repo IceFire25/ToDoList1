@@ -3,11 +3,11 @@ import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
-    <SafeAreaView style={styles.container}>
+    <View style={styles.container}>
       <Text>Todo list:</Text>
       <Text style={styles.text}>1. To do smth {"\n"} 2. Profit!</Text>
       <StatusBar style="auto" />
-    </SafeAreaView>
+    </View>
   );
 }
 
