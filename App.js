@@ -2,6 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import React, {useState} from 'react';
 import { StyleSheet, Text, View, FlatList, Platform, Button } from 'react-native';
 import Header from './components/header';
+import ListItem from './components/list';
 
 export default function App() {
     const [listOfItems, setListOfItems] = useState([
@@ -15,7 +16,7 @@ export default function App() {
         <View>
             <FlatList
             data={listOfItems}
-            renderItem={({ item }) => <Text style={styles.text}>{item.text}</Text>}
+            renderItem={({ item }) => <ListItem el={item} style={styles.text}>{item.text}</ListItem>}
             />
         </View>
     </View>
