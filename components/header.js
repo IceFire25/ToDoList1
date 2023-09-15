@@ -10,15 +10,11 @@ export default Header = () => {
 }
 
 const styles = StyleSheet.create({
-    container: {
-        flex:1,
-        alignItems: "center",
-        justifyContent: "center",
-    },
     main: {
         backgroundColor: "orange",
         fontSize: 30,
-
+        alignItems: "center",
+        justifyContent: "center",
     },
     text:{
 
