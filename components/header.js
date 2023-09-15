@@ -1,5 +1,5 @@
 import React from "react";
-import { StyleSheet, View, Text } from "react-native";
+import { StyleSheet, View, Text, Platform, Button } from "react-native";
 
 export default Header = () => {
     return (
@@ -10,6 +10,11 @@ export default Header = () => {
 }
 
 const styles = StyleSheet.create({
+    container: {
+        flex:1,
+        alignItems: "center",
+        justifyContent: "center",
+    },
     main: {
         backgroundColor: "orange",
         fontSize: 30,
