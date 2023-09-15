@@ -12,6 +12,7 @@ export default Header = () => {
 const styles = StyleSheet.create({
     main: {
         backgroundColor: "orange",
+        flexDirection: "column",
         alignItems: "flex-end",
         justifyContent: "center",
         height: 100,
