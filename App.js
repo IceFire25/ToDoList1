@@ -11,7 +11,7 @@ export default function App() {
     ]);
   return (
     <View style={styles.header}>
-    <Header/>
+    <Header centerComponent={{ style: { color: '#fff' } }}/>
         <View>
             <FlatList
             data={listOfItems}
