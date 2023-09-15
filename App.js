@@ -15,7 +15,7 @@ export default function App() {
         <View>
             <FlatList
             data={listOfItems}
-            renderItem={({ item }) => <Text>{item.text}</Text>}
+            renderItem={({ item }) => <Text style={styles.text}>{item.text}</Text>}
             />
         </View>
     </View>
@@ -30,4 +30,7 @@ const styles = StyleSheet.create({
   header: {
     flex: 1,
   },
+  text:{
+    fontSize: 30,
+},
 });
