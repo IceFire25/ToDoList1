@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
         alignItems: "center",
         justifyContent: "flex-end",
         height: 100,
-        marginVertical: 10,
+        marginVertical: 10, 
     },
     text:{
         fontSize: 30,
