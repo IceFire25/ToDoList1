@@ -10,7 +10,7 @@ export default function App() {
         { text: "Сделать ...", key: "3"},
     ]);
   return (
-    <View style={styles.header}>
+    <View style={styles.container}>
     <Header />
         <View>
             <FlatList
