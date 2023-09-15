@@ -1,7 +1,7 @@
 import React from "react";
 import { StyleSheet, View, Text } from "react-native";
 
-export default function Header() {
+export default Header = () => {
     return (
         <View style={styles.main}>
             <Text style={styles.text}>Список дел</Text>
