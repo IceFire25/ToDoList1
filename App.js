@@ -4,8 +4,7 @@ import { StyleSheet, Text, View, FlatList } from 'react-native';
 
 export default function App() {
   return (
-    <View style={styles.header}>
-    </View>
+    <Text>Create</Text>
   );
 }
 
