@@ -16,7 +16,7 @@ export default function App() {
     <Header />
     <Form />
         <View>
-            <FlatList data={listOfItems} renderItem={({ item }) => <ListItem style={styles.text} el={item} >{item.text}</ListItem>}
+            <FlatList data={listOfItems} renderItem={({ item }) => <ListItem el={item} >{item.text}</ListItem>}
             />
         </View>
     </View>
