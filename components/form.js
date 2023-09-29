@@ -1,4 +1,4 @@
- import React from "react";
+ import React, {useState} from "react";
  import { StyleSheet, TextInput, text, Button, View} from 'react-native';
 
  export default function Form() {
@@ -10,7 +10,7 @@
 
     return (
         <View>
-            <TextInput style={styles.input} onChangeText={onChange} placeholder="Впишите задачу"/>
+            <TextInput style={styles.input} onChangeText={onChange}/>
         </View>
     );
  }
