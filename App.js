@@ -3,6 +3,7 @@ import React, {useState} from 'react';
 import { StyleSheet, Text, View, FlatList, Platform, Button } from 'react-native';
 import Header from './components/header';
 import ListItem from './components/list';
+import Form from './components/form';
 
 export default function App() {
     const [listOfItems, setListOfItems] = useState([
@@ -13,6 +14,7 @@ export default function App() {
   return (
     <View style={styles.container}>
     <Header />
+    <Form/>
         <View>
             <FlatList
             data={listOfItems}
