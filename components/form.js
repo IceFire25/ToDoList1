@@ -5,7 +5,6 @@
     const [text, setValue] = useState("");
     const onChange = (text) => {
         setValue(text);
-
     };
 
     return (
