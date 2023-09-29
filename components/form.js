@@ -10,6 +10,7 @@
     return (
         <View style={styles.main}>
             <TextInput style={styles.input} onChangeText={onChange} placeholder="Впишите задачу..."/>
+            <Button color="#AA96DA" onPress={() => addHandler(text)} title="Добавить задачу"/>
         </View>
     );
  }
