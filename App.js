@@ -11,10 +11,19 @@ export default function App() {
         { text: "Помыть ...", key: "2"},
         { text: "Сделать ...", key: "3"},
     ]);
+
+    const addHandler = (text) => {
+        setListOfItems((list) => {
+            return [
+                {text: text, key: Math.random().toString(36).substring(7) },
+                ...list,
+            ];
+        });
+    };
   return (
     <View style={styles.container}>
     <Header />
-    <Form />
+    <Form addHandler={addHandler}/>
         <View>
             <FlatList data={listOfItems} renderItem={({ item }) => <ListItem el={item} >{item.text}</ListItem>}
             />
