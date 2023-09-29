@@ -24,8 +24,7 @@
         
     },
     input:{
-        fontSize: 20,
-        color: "white",
+        fontSize: 40,
         marginVertical: 10, 
     },
 });
