@@ -20,13 +20,19 @@ export default function App() {
             ];
         });
     };
-    
+
+    const delteHandler = (key) => {
+        setListOfItems((list) => {
+            return list.filter((listOfItems)=> listOfItems.key != key);
+        });
+    };
+
   return (
     <View style={styles.container}>
     <Header />
     <Form addHandler={addHandler}/>
         <View>
-            <FlatList data={listOfItems} renderItem={({ item }) => <ListItem el={item} >{item.text}</ListItem>}
+            <FlatList data={listOfItems} renderItem={({ item }) => <ListItem el={item} delteHandler={deleteHandler}/>}
             />
         </View>
     </View>
