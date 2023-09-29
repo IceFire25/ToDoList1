@@ -37,6 +37,6 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   text:{
-    fontSize: 35,
+    fontSize: 40,
 },
 });
