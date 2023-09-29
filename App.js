@@ -33,6 +33,9 @@ const styles = StyleSheet.create({
   header: {
     flex: 1,
   },
+  form: {
+    flex: 1,
+  },
   text:{
     fontSize: 30,
 },
