@@ -28,12 +28,6 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
   },
-  header: {
-    flex: 1,
-  },
-  form: {
-    flex: 1,
-  },
   text:{
     fontSize: 40,
     color: "blue",
