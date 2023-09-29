@@ -24,7 +24,7 @@
          
     },
     input:{
-        fontSize: 40,
+        fontSize: 20,
         marginVertical: 10, 
     },
 });
