@@ -21,7 +21,7 @@
         justifyContent: "center",
         height: 100,
         marginHorizontal: 80,
-        
+         
     },
     input:{
         fontSize: 40,
