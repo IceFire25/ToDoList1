@@ -15,5 +15,14 @@
  }
 
  const styles = StyleSheet.create({
-
- });
+    main: {
+        alignItems: "center",
+        justifyContent: "center",
+        height: 100,
+    },
+    text:{
+        fontSize: 30,
+        color: "white",
+        marginVertical: 10, 
+    },
+});
