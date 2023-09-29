@@ -19,7 +19,7 @@
         alignItems: "flex-start",
         justifyContent: "center",
         height: 100,
-        marginHorizontal: 10,
+        marginHorizontal: 30,
     },
     input:{
         fontSize: 20,
