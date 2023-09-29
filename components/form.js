@@ -16,8 +16,8 @@
 
  const styles = StyleSheet.create({
     main: {
-        alignItems: "center",
-        justifyContent: "flex-start",
+        alignItems: "flex-start",
+        justifyContent: "center",
         height: 100,
     },
     input:{
