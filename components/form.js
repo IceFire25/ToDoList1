@@ -8,7 +8,7 @@
     };
 
     return (
-        <View>
+        <View style={styles.main}>
             <TextInput style={styles.input} onChangeText={onChange} placeholder="Впишите задачу..."/>
         </View>
     );
@@ -20,7 +20,7 @@
         justifyContent: "center",
         height: 100,
     },
-    text:{
+    input:{
         fontSize: 30,
         color: "white",
         marginVertical: 10, 
