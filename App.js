@@ -21,7 +21,7 @@ export default function App() {
         });
     };
 
-    const delteHandler = (key) => {
+    const deleteHandler = (key) => {
         setListOfItems((list) => {
             return list.filter((listOfItems)=> listOfItems.key != key);
         });
