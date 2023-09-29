@@ -1,7 +1,7 @@
  import React, {useState} from "react";
  import { StyleSheet, TextInput, text, Button, View} from 'react-native';
 
- export default function Form() {
+ export default function Form({addHandler}) {
     const [text, setValue] = useState("");
     const onChange = (text) => {
         setValue(text);
