@@ -11,7 +11,7 @@ export default function App() {
         { text: "Помыть ...", key: "2"},
         { text: "Сделать ...", key: "3"},
     ]);
-
+ 
     const addHandler = (text) => {
         setListOfItems((list) => {
             return [
