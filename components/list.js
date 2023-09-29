@@ -1,9 +1,9 @@
 import React from "react";
 import { StyleSheet, TouchableOpacity, Text } from "react-native";
 
-export default function ListItem({el}) {
+export default function ListItem({el, delteHandler}) {
     return (
-        <TouchableOpacity>
+        <TouchableOpacity onPress={( )=> delteHandler(el.key)}>
             <Text style={styles.text}>{el.text}</Text>
         </TouchableOpacity>
     );
