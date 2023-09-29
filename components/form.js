@@ -10,7 +10,7 @@
 
     return (
         <View>
-            <TextInput style={styles.input} onChangeText={onChange}/>
+            <TextInput style={styles.input} onChangeText={onChange} placeholder="Впишите задачу..."/>
         </View>
     );
  }
