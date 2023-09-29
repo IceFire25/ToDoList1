@@ -21,7 +21,7 @@
         height: 100,
     },
     input:{
-        fontSize: 30,
+        fontSize: 20,
         color: "white",
         marginVertical: 10, 
     },
